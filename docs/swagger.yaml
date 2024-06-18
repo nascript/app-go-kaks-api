@@ -22,7 +22,7 @@ definitions:
       message:
         type: string
     type: object
-host: localhost:3000
+host: http://3.27.69.11:4040/
 info:
   contact:
     email: nasutioncode@gmail.com
