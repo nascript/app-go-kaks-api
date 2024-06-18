@@ -7,7 +7,7 @@
 
 ### Overview
 
-This project is a web API designed to perform CRUD (Create, Read, Update, Delete) operations on product data. The API is built using Go (Golang) and follows a clean architecture pattern to ensure scalability, maintainability, and testability. It leverages various AWS services for deployment and cloud management, providing a robust solution for product data management.
+This project is a web API designed to perform CRUD (Create, Read, Update, Delete) operations on product data. The API is built using Go (Golang) and follows a clean architecture pattern to ensure scalability,, maintainability, and testability. It leverages various AWS services for deployment and cloud management, providing a robust solution for product data management.
 
 ### Key Features
 
