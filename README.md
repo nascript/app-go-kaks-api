@@ -2,6 +2,9 @@
 
 ## Project Description: Product Management CRUD Web API
 
+### BASE URL 
+```http://3.27.69.11:4040/api/v1/swagger/index.html```
+
 ### Overview
 
 This project is a web API designed to perform CRUD (Create, Read, Update, Delete) operations on product data. The API is built using Go (Golang) and follows a clean architecture pattern to ensure scalability, maintainability, and testability. It leverages various AWS services for deployment and cloud management, providing a robust solution for product data management.
@@ -21,8 +24,9 @@ This project is a web API designed to perform CRUD (Create, Read, Update, Delete
 - **Programming Language**: Go (Golang)
 - **Web Framework**: Fiber
 - **Database**: MongoDB
-- **Cloud Services**: AWS Elastic Beanstalk for deployment, S3 for static file storage (if needed)
+- **Cloud Services**: AWS EC2
 - **Version Control**: GitHub for source code management and continuous integration
+- **Deployment**: GitHub Action to Ubuntu AWS
 
 ## Features
 
