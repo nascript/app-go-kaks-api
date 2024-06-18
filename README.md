@@ -3,7 +3,7 @@
 ## Project Description: Product Management CRUD Web API
 
 ### BASE URL 
-```http://3.27.69.11:4040/api/v1/swagger/index.html```
+```http://13.236.121.17:4040/api/v1/swagger/index.html```
 
 ### Overview
 

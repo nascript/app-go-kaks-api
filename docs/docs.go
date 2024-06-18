@@ -272,7 +272,7 @@ const docTemplate = `{
 // SwaggerInfo holds exported Swagger Info so clients can modify it
 var SwaggerInfo = &swag.Spec{
 	Version:          "1.0",
-	Host:             "3.27.69.11:4040",
+	Host:             "13.236.121.17:4040",
 	BasePath:         "/",
 	Schemes:          []string{},
 	Title:            "kaks-cloud-web-api-task",
