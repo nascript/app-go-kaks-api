@@ -16,16 +16,16 @@ jobs:
       - name: Login to docker hub
         run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
       - name: Build docker image
-        run: docker build -t nascript/kaks-go-api .
+        run: docker build -t nascript/app-go-kaks-api .
       - name: Push image to docker hub
-        run: docker push nascript/kaks-go-api:latest
+        run: docker push nascript/app-go-kaks-api:latest
   deploy:
     needs: build
     runs-on: self-hosted
     steps:
       - name: Pull docker image
-        run: docker pull nascript/kaks-go-api:latest
+        run: docker pull nascript/app-go-kaks-api:latest
       - name: Delete old container
-        run: docker rm -f kaks-go-api-container  
+        run: docker rm -f app-go-kaks-api-container  
       - name: Run docker container          
-        run: docker run -d -p 4040:4040 --name kaks-go-api-container nascript/kaks-go-api
+        run: docker run -d -p 4040:4040 --name app-go-kaks-api-container nascript/app-go-kaks-api
