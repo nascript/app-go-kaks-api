@@ -1,0 +1,39 @@
+```
+└── 📁kaks-apps
+    └── .env
+    └── 📁.idea
+        └── .gitignore
+        └── CRUD_Hexagonal.iml
+        └── modules.xml
+        └── vcs.xml
+    └── README.md
+    └── 📁api
+        └── 📁product
+            └── adapter.go
+            └── handler.go
+    └── 📁cmd
+        └── main.go
+    └── 📁docs
+        └── docs.go
+        └── swagger.json
+        └── swagger.yaml
+    └── 📁domain
+        └── 📁product
+            └── product.go
+            └── service.go
+    └── go.mod
+    └── go.sum
+    └── 📁infrastructure
+        └── mongo.db.go
+        └── opentelemetry.go
+    └── 📁repository
+        └── 📁product
+            └── repository.go
+    └── 📁service
+        └── 📁product
+            └── adapter.go
+    └── 📁utils
+        └── http.go
+        └── utils.go
+        └── validator.go
+```
